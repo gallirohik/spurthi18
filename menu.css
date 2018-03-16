@@ -1,0 +1,193 @@
+ .abcd{
+    height:45%;
+    width:22%;
+  
+    position:absolute;
+    background-color:rgba(0,0,0,0.7);
+    border-radius:50%;
+    margin-left:38%;
+    margin-top:0%;
+  
+  }
+  .ie1{
+    height:15.4%;
+    width: 8%;
+    border-radius:50%;
+    position:absolute;
+    margin-left:45%;
+    margin-top:5.7%;
+    transition:1s;
+    opacity:0;
+    
+  
+  }
+  
+  .ie3{
+    height:15.4%;
+    width: 8%;
+    border-radius:50%;
+    position:absolute;
+    margin-left:25%;
+    margin-top:5.7%;
+    transition:1s;
+    opacity:0;
+    cursor:pointer;
+  
+    
+  }
+  .ie4{
+    height:15.4%;
+    width: 8%;
+    border-radius:50%;
+    position:absolute;
+   margin-left:45%;
+    margin-top:5.7%;
+    transition: 1s;
+    opacity:0;    
+  }
+  .ie5{
+    height:15.4%;
+    width: 8%;
+    border-radius:50%;
+    position:absolute;
+    margin-left:45%;
+    margin-top:5.7%;
+    transition:1s;
+    opacity:0;
+    
+  }
+  .ie6{
+    height:15.4%;
+    width: 8%;
+    border-radius:50%;
+    position:absolute;
+    margin-left:45%;
+    margin-top:5.7%;
+    transition:1s;
+    opacity:0;
+    
+  }
+  .ie7{
+    height:15.4%;
+    width: 8%;
+    border-radius:50%;
+    position:absolute;
+    margin-left:45%;
+    margin-top:5.7%;
+    transition:1s;
+    opacity:0;
+    
+  }
+  .ie8{
+    height:100%;
+    width: 100%;
+    border-radius:50%;
+    position:absolute;
+    z-index: -1;
+    margin-left:45%;
+    margin-top:5.7%;
+    transition:1s;
+    opacity:0;
+    
+  }
+  /*--------------------------*/
+  .ic1{
+    height:40%;
+    width: 40%;
+    border-radius:50%;
+    position:absolute;
+    margin-left:10%;
+    margin-top:-8%;
+    opacity: 1;
+  }
+  
+  .ic3{
+    height:30%;
+    width: 30%;
+    border-radius:50%;
+    position:absolute;
+    margin-left:55%;
+    margin-top:15%;
+    opacity: 1;
+  }
+  .ic4{
+    height:30%;
+    width: 30%;
+    border-radius:50%;
+    position:absolute;
+    margin-left:16%;
+    margin-top:16%;
+    opacity: 1;
+  }
+  .ic5{
+    height:30%;
+    width: 30%;
+    border-radius:50%;
+    position:absolute;
+    margin-left:55%;
+    margin-top:-6%;
+    opacity: 1;
+  }
+  .ic6{
+    height:30%;
+    width: 30%;
+    border-radius:50%;
+    position:absolute;
+    margin-left:14%;
+    margin-top:6%;
+    opacity: 1;
+  }
+  .ic7{
+    height:20%;
+    width: 20%;
+    border-radius:50%;
+    position:absolute;
+    margin-left:60%;
+    margin-top:6%;
+    opacity: 1;
+  }
+  .ic8{
+    height:25%;
+    width: 25%;
+    border-radius:50%;
+    position:absolute;
+    margin-left:37%;
+    margin-top:22%;
+    opacity: 1;
+    z-index: 4;
+  }
+  .logo2{
+     height:15.4%;
+    width: 8%;
+    border-radius:50%;
+    position:absolute;
+    margin-left:45%;
+    margin-top:5.7%;
+    transition:2s;
+    opacity:1;
+    
+  }
+ .abcde
+  {
+    height:15.5%;
+    width: 8%;
+    border-radius:50%;
+    position:absolute;
+    margin-left:45%;
+    margin-top:5%;
+    transition:2s;
+    opacity:1;
+  }
+  .abcdef
+  {
+    height:15.5%;
+    width: 8%;
+    border-radius:50%;
+    position:absolute;
+    margin-left:4%;
+    margin-top:-11%;
+    transition:2s;
+    opacity:1;
+    
+
+  }

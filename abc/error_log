@@ -1,0 +1,32 @@
+[10-Dec-2016 09:58:07 UTC] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'SMTP Error: Could not connect to SMTP host.' in /home/spurthi/public_html/workshop/email/class.phpmailer.php:781
+Stack trace:
+#0 /home/spurthi/public_html/workshop/email/class.phpmailer.php(666): PHPMailer->SmtpConnect()
+#1 /home/spurthi/public_html/workshop/email/class.phpmailer.php(537): PHPMailer->SmtpSend('Date: Sat, 10 D...', ' Dear porus, yo...')
+#2 /home/spurthi/public_html/workshop/winsert.php(65): PHPMailer->Send()
+#3 {main}
+  thrown in /home/spurthi/public_html/workshop/email/class.phpmailer.php on line 781
+[10-Dec-2016 09:58:51 UTC] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'SMTP Error: Could not connect to SMTP host.' in /home/spurthi/public_html/workshop/email/class.phpmailer.php:781
+Stack trace:
+#0 /home/spurthi/public_html/workshop/email/class.phpmailer.php(666): PHPMailer->SmtpConnect()
+#1 /home/spurthi/public_html/workshop/email/class.phpmailer.php(537): PHPMailer->SmtpSend('Date: Sat, 10 D...', ' Dear porus, yo...')
+#2 /home/spurthi/public_html/workshop/winsert.php(65): PHPMailer->Send()
+#3 {main}
+  thrown in /home/spurthi/public_html/workshop/email/class.phpmailer.php on line 781
+[10-Dec-2016 09:59:32 UTC] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'SMTP Error: Could not connect to SMTP host.' in /home/spurthi/public_html/workshop/email/class.phpmailer.php:781
+Stack trace:
+#0 /home/spurthi/public_html/workshop/email/class.phpmailer.php(666): PHPMailer->SmtpConnect()
+#1 /home/spurthi/public_html/workshop/email/class.phpmailer.php(537): PHPMailer->SmtpSend('Date: Sat, 10 D...', ' Dear porus, yo...')
+#2 /home/spurthi/public_html/workshop/winsert.php(65): PHPMailer->Send()
+#3 {main}
+  thrown in /home/spurthi/public_html/workshop/email/class.phpmailer.php on line 781
+[12-Jan-2018 23:01:34 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/spurthi18/public_html/admin/connect.php on line 6
+[12-Jan-2018 23:02:19 UTC] PHP Notice:  Undefined index: uname in /home/spurthi18/public_html/admin/login.php on line 14
+[12-Jan-2018 23:02:19 UTC] PHP Notice:  Undefined index: password in /home/spurthi18/public_html/admin/login.php on line 15
+[12-Jan-2018 23:02:19 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/spurthi18/public_html/admin/login.php on line 19
+[12-Jan-2018 23:04:40 UTC] PHP Notice:  Undefined index: slno in /home/spurthi18/public_html/admin/login.php on line 23
+[12-Jan-2018 23:06:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/spurthi18/public_html/admin/excelconversion.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/spurthi18/public_html/admin/excelconversion.php on line 15
+[13-Jan-2018 00:42:39 UTC] PHP Notice:  Undefined index: slno in /home/spurthi18/public_html/abc/login.php on line 23
+[13-Jan-2018 00:42:54 UTC] PHP Notice:  Undefined index: slno in /home/spurthi18/public_html/abc/login.php on line 23

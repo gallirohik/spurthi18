@@ -1,0 +1,60 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sdEvent {
+    height:500px;
+    width:0;
+    position:absolute; 
+    z-index: 1;
+    top:20%;
+    left: 0;
+    background-color:rgba(46, 134, 193,0.2);   
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    margin-bottom:0px;
+    
+}
+
+.sdEvent a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f1f1f1;
+    display: block;
+    transition: 0.3s;
+
+}
+
+.sdEvent a:hover {
+    color: #f1f1f1;
+}
+
+.sdEvent .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px){
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+#menubar
+{
+  height:4%;
+  width:10%;
+  padding:2px 2px 2px 2px;
+  background-color:#008080;
+  display:none;
+  font-size:100%;
+  margin-left:2%;
+  cursor:pointer;
+  transition:2s;
+  position: fixed;
+  float:left;
+}
+</style>

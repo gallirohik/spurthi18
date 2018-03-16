@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Attractions in SPURTHI'18</title>
+        <meta name="description" content="Vertical Showcase Slider with jQuery and CSS Transitions" />
+        <meta name="keywords" content="css3, transitions, vertical, layout, fullscreen, jquery, slide up, slide down" />
+        <meta name="author" content="Codrops" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="shortcut icon" href="../favicon.ico"> 
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link href='http://fonts.googleapis.com/css?family=Dosis:200,400,700' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
+		<noscript><link rel="stylesheet" type="text/css" href="css/noscript.css" /></noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="css/noscript.css" /><![endif]-->
+		<style>
+.body1 {font-family: "Lato", sans-serif}
+.mySlides {display: none}</style>
+    </head>
+	
+    <body>
+		<section id="ps-container" class="ps-container body1">
+		
+			<div class="ps-header">
+				<h2>Attractions in SPURTHI'18</h2>
+			</div><!-- /ps-header -->
+			
+			<div class="ps-contentwrapper">
+			<!--attractions content-->
+			<!-- Cricbet-->
+				<div class="ps-content">
+					<h2>Cricbet</h2>
+					<span class="ps-price"> ₹50</span>
+					<p>Cricbet fuses the thrill of betting and earning rewards using virtual money.We have dart game and a bit of knowledge test on cricket intially and there comes the most entrancing BETTING!!</p>
+					<br>
+				<button type="button" class="w3-btn w3-teal" onclick="document.getElementById('ticketModal').style.display='block'">Rules</button>
+				
+  <!-- Rules Modal -->
+  <div id="ticketModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-16"> 
+        
+        <h2 class="w3-wide"><i class=" w3-margin"></i>Rules</h2>
+      </header>
+      <div class="w3-container">
+        <ul>
+						<li><p>Knowledge on cricket is manditory.</p></li>
+						<li><p>Only individual participation is allowed.</p></li>
+					</ul>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+		<h3>Lakshman Muttineni</h3>
+        <a class="w3-button w3-black" href="tel:9490855808" title="Contact"><i class="fa fa-phone"></i></a> 9490855808<br>
+      </div>
+    </div>
+  </div>
+</div>	
+
+				<!--MUSICAL.LY-->
+				<div class="ps-content">
+					<h2>Cricbet</h2>
+					<span class="ps-price fa fa-inr"> ₹50</span>
+					<p>Cricbet fuses the thrill of betting and earning rewards using virtual money.We have dart game and a bit of knowledge test on cricket intially and there comes the most entrancing BETTING!!</p>
+					<br>
+				<button type="button" class="w3-btn w3-teal" onclick="document.getElementById('ticketModal').style.display='block'">Rules</button>
+				
+  <!-- Rules Modal -->
+  <div id="ticketModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-16"> 
+        <span onclick="document.getElementById('ticketModal').style.display='none'" 
+       class="w3-button w3-red w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class=" w3-margin"></i>Rules</h2>
+      </header>
+      <div class="w3-container">
+        <ul>
+						<li><p>Knowledge on cricket is manditory.</p></li>
+						<li><p>Only individual participation is allowed.</p></li>
+					</ul>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+		<h3>Lakshman Muttineni</h3>
+        <a class="w3-button w3-black" href="tel:9490855808" title="Contact"><i class="fa fa-phone"></i></a> 9490855808<br>
+      </div>
+    </div>
+  </div>
+
+				</div>	
+				<!--
+			<div class="ps-content">
+					<h2>Cricbet</h2>
+					<span class="ps-price fa fa-inr"> ₹50</span>
+					<p>Cricbet fuses the thrill of betting and earning rewards using virtual money.We have dart game and a bit of knowledge test on cricket intially and there comes the most entrancing BETTING!!</p>
+					<br>
+				<button type="button" class="w3-btn w3-teal" onclick="document.getElementById('ticketModal').style.display='block'">Rules</button>
+				
+  <!-- Rules Modal -->
+  <div id="ticketModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-16"> 
+        <span onclick="document.getElementById('ticketModal').style.display='none'" 
+       class="w3-button w3-red w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class=" w3-margin"></i>Rules</h2>
+      </header>
+      <div class="w3-container">
+        <ul>
+						<li><p>Knowledge on cricket is manditory.</p></li>
+						<li><p>Only individual participation is allowed.</p></li>
+					</ul>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+		<h3>Lakshman Muttineni</h3>
+        <a class="w3-button w3-black" href="tel:9490855808" title="Contact"><i class="fa fa-phone"></i></a> 9490855808<br>
+      </div>
+    </div>
+  </div>
+
+				</div>	
+<div class="ps-content">
+					<h2>Cricbet</h2>
+					<span class="ps-price fa fa-inr"> ₹50</span>
+					<p>Cricbet fuses the thrill of betting and earning rewards using virtual money.We have dart game and a bit of knowledge test on cricket intially and there comes the most entrancing BETTING!!</p>
+					<br>
+				<button type="button" class="w3-btn w3-teal" onclick="document.getElementById('ticketModal').style.display='block'">Rules</button>
+				
+  <!-- Rules Modal -->
+  <div id="ticketModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-16"> 
+        <span onclick="document.getElementById('ticketModal').style.display='none'" 
+       class="w3-button w3-red w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class=" w3-margin"></i>Rules</h2>
+      </header>
+      <div class="w3-container">
+        <ul>
+						<li><p>Knowledge on cricket is manditory.</p></li>
+						<li><p>Only individual participation is allowed.</p></li>
+					</ul>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+		<h3>Lakshman Muttineni</h3>
+        <a class="w3-button w3-black" href="tel:9490855808" title="Contact"><i class="fa fa-phone"></i></a> 9490855808<br>
+      </div>
+    </div>
+  </div>
+
+				</div>	
+<div class="ps-content">
+					<h2>Cricbet</h2>
+					<span class="ps-price fa fa-inr"> ₹50</span>
+					<p>Cricbet fuses the thrill of betting and earning rewards using virtual money.We have dart game and a bit of knowledge test on cricket intially and there comes the most entrancing BETTING!!</p>
+					<br>
+				<button type="button" class="w3-btn w3-teal" onclick="document.getElementById('ticketModal').style.display='block'">Rules</button>
+				
+  <!-- Rules Modal -->
+  <div id="ticketModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-16"> 
+        <span onclick="document.getElementById('ticketModal').style.display='none'" 
+       class="w3-button w3-red w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class=" w3-margin"></i>Rules</h2>
+      </header>
+      <div class="w3-container">
+        <ul>
+						<li><p>Knowledge on cricket is manditory.</p></li>
+						<li><p>Only individual participation is allowed.</p></li>
+					</ul>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+		<h3>Lakshman Muttineni</h3>
+        <a class="w3-button w3-black" href="tel:9490855808" title="Contact"><i class="fa fa-phone"></i></a> 9490855808<br>
+      </div>
+    </div>
+  </div>
+
+				</div>	
+<div class="ps-content">
+					<h2>Cricbet</h2>
+					<span class="ps-price fa fa-inr"> ₹50</span>
+					<p>Cricbet fuses the thrill of betting and earning rewards using virtual money.We have dart game and a bit of knowledge test on cricket intially and there comes the most entrancing BETTING!!</p>
+					<br>
+				<button type="button" class="w3-btn w3-teal" onclick="document.getElementById('ticketModal').style.display='block'">Rules</button>
+						</div>			
+  <!-- Rules Modal -->
+  <div id="ticketModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-black w3-center w3-padding"> 
+        <span onclick="document.getElementById('ticketModal').style.display='none'" 
+       class="w3-button w3-red w3-large w3-display-topright">×</span>
+        <h2 class="w3-"><i class=" w3-margin-right"></i>Rules     </h2>
+      </header>
+      <div class="w3-container">
+        <ul>
+						<li>Knowledge on cricket is manditory.</li>
+						<li>Only individual participation is allowed.</li>
+					</ul>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+		<h3>Lakshman Muttineni</h3>
+        <a class="w3-button w3-black" href="tel:9490855808" title="Contact"><i class="fa fa-phone"></i></a> 9490855808<br>
+      </div>
+    </div>
+  </div>
+
+				
+			</div><!-- /ps-contentwrapper -->
+			
+			<div class="ps-slidewrapper">
+			
+				<div class="ps-slides">
+					<div style="background-image:url(images/musically.png);"></div>
+					<div style="background-image:url(images/cricbet.png);"></div>
+					<div style="background-image:url(images/crazy.png);"></div>
+					<div style="background-image:url(images/boomerang.png);"></div>
+					<div style="background-image:url(images/baffele.png);"></div>
+				</div>
+				
+				<nav>
+					<a href="#" class="ps-prev" ></a>
+					<a href="#" class="ps-next" ></a>
+				</nav>
+				
+			</div><!-- /ps-slidewrapper -->
+			
+		</section><!-- /ps-container -->
+			
+		<!-- jQuery if needed -->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/slider.js"></script>
+		<script type="text/javascript">
+			$(function() {
+
+				Slider.init();
+			
+			});
+			// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+		</script>
+		
+    </body>
+</html>
+<?php include'footer.php';?>

@@ -1,0 +1,26 @@
+span {
+
+  text-align: center;
+  font-size:200%;
+  color:/*#88E0E5*/white;
+}
+.bg
+{
+
+background-color:rgba(0,0,0,0.5);
+height:auto;
+width:60px;
+padding:10px 10px 10px 10px;
+border-radius:8px;
+border:2px solid white /*#88E0E5*/;
+}
+#counter{
+margin-top:50px;
+margin-left:80%;
+margin-top:-12%;
+}
+#ctr{
+font-size:150%;
+color:white/*#88E0E5*/;
+font-family:sans-serif;
+}

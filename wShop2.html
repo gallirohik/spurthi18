@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+       <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+
+       <link rel="stylesheet" href="css/style17.css">
+	<style type="text/css">
+		#img{
+			background-image: url('images1/blockChain.png');
+		    background-size:100% 100%;
+			background-repeat:no-repeat;
+			width:100%;
+			height:auto;
+			margin-left:0%;
+			border-top-right-radius:30px;
+			border-top-left-radius:30px;
+            
+
+		}
+		#bdy{
+			height:auto;
+			width:100%;
+			background-color:#f1f1f1;
+		}
+		#ftr{
+			height:200px;
+			width:100%;
+			background-color:black;
+		}
+		.icon1
+		{
+    position: absolute;
+    top:2%;
+    left: 0;
+    height: 18.5%;
+    width: 12.6%;
+    border-radius:50%;
+    background-color: #eee;
+    margin-left:80.7%;
+    margin-top:19.2%;
+    opacity:0;
+    cursor:pointer;
+    /*animation:blink-animation 5s steps(5,start) infinite;
+    -webkit-animation:blink-animation 2s steps(5,start) infinite;
+    */
+
+		}
+		/
+		@keyframes blink-animation
+		{ 
+			to{visibility:hidden; }
+		}
+		@-webkit-keyframes blink-animation
+		{ 
+			to{visibility:hidden; }
+		}
+	.icon2	
+		{
+    position: absolute;
+    top:2%;
+    left: 0;
+    height: 16.5%;
+    width: 10.6%;
+    border-radius:50%;
+    background-color: #eee;
+    margin-left:48.5%;
+    margin-top:17%;
+    opacity:0;
+    cursor:pointer;
+
+		}
+			.icon3
+		{
+    position: absolute;
+    top:2%;
+    left: 0;
+    height: 22.8%;
+    width: 16%;
+    border-radius:50%;
+    background-color: #eee;
+    margin-left:66.8%;
+    margin-top:30.3%;
+    opacity:0;
+    cursor:pointer;
+
+		}
+		#rButton{
+			margin-top:38%;
+			opacity:0;
+			cursor:initial;
+		}
+		video{
+			     margin-top:10%;
+			     min-height:40%;
+			     min-width: 40%;
+			     width:40%;
+			     height:30%;
+			     border-radius:0%;
+			     margin-left:55%;			     
+		}
+        #regForm{
+        	display:none;
+        	
+        
+        	width:0%;
+        	
+        	box-shadow:15px 15px;
+        	-webkit-transform:matrix3;
+        	background-color:#083532;
+        	/*#33373a;*/
+        	z-index:1;
+        	margin-top:0%;
+        	transition:2s;
+        	margin-left:0%;
+        }
+
+        b{
+			opacity:0;
+		}
+		#hh{
+			color:#7EFDF3;
+			
+			font-size:18pt;
+		}
+	</style>
+	<script type="text/javascript">
+		function showRegister()
+		{
+			
+			document.getElementById("regForm").style.display="block";
+			document.getElementById("vdo").style.display="none";
+			setTimeout(showRegister1,0000);
+
+		}
+		function showRegister1()
+		{
+			document.getElementById("regForm").style.width="40%";
+
+		}
+
+		
+	</script>
+	
+</head>
+<body>
+	<div id="img">
+		
+		<a href="#bdy"><span class="icon1" onclick="showRegister()"></span></a>
+		<a href="#bdy"><span class="icon2" onclick="showRegister()"></span></a>
+		<a href="#bdy"><span class="icon3" onclick="showRegister()"></span></a>
+	        <button id="rButton">Register Now</button> <br><b><i>Spurthi'18</i></b>
+	</div>
+	<div id="bdy">
+		<div id="vdo">
+    <video autoplay loop>
+	<source src="videos/bChain.mp4" type="video/mp4">	
+	</video>
+</div>
+<b>REGISTER HERE</b>
+	<div class="container" id="regForm">
+  <form action="workshopregistration.php" method="POST">
+    <div class="row">
+      <p id="hh">Registration</p>
+      <div class="input-group input-group-icon">
+        <input type="number" placeholder="College ID (Registration Number)" name="clgid" required="10"/>
+        <div class="input-icon"><i class="fa fa-user"></i></div>
+      </div>
+      <div class="row">
+      <div class="input-group input-group-icon">
+           <div class="input-group input-group-multiple-selectp">
+              
+             <span id="sp"><div class="input-icon" id="ic"><i class="fa fa-university"></i></div></span>
+            
+                    <select id="clg" name="values">
+                    <option value="Select one">Select one</option>
+                    <option value="SRKR Engineering college">SRKR Engineering college</option>
+                    <option value="C R Reddy Engineering college">C R Reddy Engineering college</option>
+                    <option value="Option 3">Option 3</option>
+                    <option value="Option 4">Option 4</option>
+                </select>
+            </div>
+        </div>
+      </div>
+      <div class="input-group input-group-icon">
+        <input type="text" placeholder="Full Name" name="fname" required/>
+        <div class="input-icon"><i class="fa fa-user"></i></div>
+      </div>
+      <div class="input-group input-group-icon">
+        <input type="text" placeholder="NAME ON CERTIFICATE" title ="This can't be changed further." name="cername" required/>
+        <div class="input-icon"><i class="fa fa-user"></i></div>
+      </div>
+      <div class="input-group input-group-icon">
+        <input type="email" placeholder="Email Adress" name="email" required/>
+        <div class="input-icon"><i class="fa fa-envelope"></i></div>
+      </div>
+      <div class="input-group input-group-icon">
+        <input type="number" id="mobile" placeholder="Mobile" name="phno" minlength="10" required/>
+        <div class="input-icon"><i class="fa fa-mobile"></i></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-half">
+        <h4>Date of Birth</h4>
+        <div class="input-group">
+          <div class="col-third">
+            <input type="text" id="dob" placeholder="DD" name="db" required/>
+          </div>
+          <div class="col-third">
+            <input type="text" id="mon" placeholder="MM" name="mb" required/> 
+          </div>
+          <div class="col-third">
+            <input type="text" id="yy" placeholder="YYYY" name="yb" required/>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-half">
+        <h4>Gender</h4>
+        <div class="input-group">
+          <input type="radio" name="gender" value="male" id="gender-male" required/>
+          <label for="gender-male">Male</label>
+          <input type="radio" name="gender" value="female" id="gender-female" required/>
+          <label for="gender-female">Female</label>
+        </div>
+      </div>
+    </div>
+    <p id="accomod" style="display: none;">Accomodation will be for 1 day ie on 30/01/2018</p>
+    <div class="row">
+    <div class="col-half">
+        <h4>Accomodation</h4>
+        <div class="input-group">
+          <input type="radio" mouseover="show1()" name="accomodation" value="yes" id="accomodation-yes" required/>
+          <label for="accomodation-yes">Yes</label>
+          <input type="radio" name="accomodation" value="no" id="accomodation-no" required/>
+          <label for="accomodation-no">No</label>
+        </div>
+      </div>
+  </div>
+    
+    <div class="row">
+      <h4>Terms and Conditions</h4>
+      <div class="input-group">
+        <input type="checkbox" id="terms"/>
+        <label for="terms">I accept the terms and conditions for signing up to this service, and hereby confirm I have read the privacy policy.</label>
+      </div>
+    </div>
+    <input class="btn btn--form" id="submit" type="submit" value="Register"/>
+  </form>
+</div>
+<br>
+<br>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+    <script>function show1(){document.getElementById('accomod').style.display='block';}</script>
+    <script >
+    $(document).ready(function(){
+
+      $("#accomodation-yes").click(function(){
+        $("#accomod").show();
+      });
+      $("#accomodation-no").click(function(){
+        $("#accomod").hide();
+      });
+    $("#dob").click(function(){
+      //alert("came here");
+
+      if( ($("#mobile").val().length < 10))
+      {
+        alert("Mobile number should be 10 digits");
+    }
+    else
+    {
+
+    }
+    });
+});
+    </script>
+	</div>
+	<div id="ftr"></div>
+</body>
+</html>

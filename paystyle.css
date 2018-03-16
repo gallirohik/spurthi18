@@ -1,0 +1,375 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-transition: 0.4s ease-in-out;
+  -moz-transition: 0.4s ease-in-out;
+  -o-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+  font-family: "museo-sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  /*color: #6C7A89;*/
+  color: black;
+}
+*:focus {
+  outline: none;
+}
+
+body{
+  /*background:#292b28;*/
+  /*background:url('images1/bg.gif');*/
+  background-size: cover;
+  font-family: 'i_light';
+  font-weight: bold;
+  background: black;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: white;
+    color: #6C7A89;
+    padding: 14px 20px;
+    margin: 8px 0px;
+    border: 1;
+    border-color: #6C7A89;
+    cursor: pointer;
+    width: 20%;
+}
+button, #now{
+  margin:8px 0px 0px 150px;
+}
+button:hover {
+    background-color: #00bfff;
+    border-color: #00bfff;
+    color: white;
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: white;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color:white;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+}
+
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+#wrapper {
+  position:fixed;
+  top: 50%;
+  margin-top: -240px;
+  left: 0;
+  width: 100%;
+}
+
+#container {
+  width: 1000px;
+  height: 600px;
+  margin: 0 auto;
+  box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.7);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  overflow: scroll;
+  /*background: #b3bead;*/
+  background: -moz-linear-gradient(45deg, #b3bead 0%, #dfe5d7 60%, #fcfff4 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #b3bead 0%, #dfe5d7 60%, #fcfff4 100%);
+  /* Chrome10-25,Safari5.1-6 
+  background: linear-gradient(45deg, #b3bead 0%, #dfe5d7 60%, #fcfff4 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#info {
+  width: 52%;
+  height: 100%;
+  float: left;
+  background: -moz-linear-gradient(45deg, #95a5a6 0%, rgba(208, 215, 216, 0) 56%, rgba(255, 255, 255, 0) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #95a5a6 0%, rgba(208, 215, 216, 0) 56%, rgba(255, 255, 255, 0) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #95a5a6 0%, rgba(208, 215, 216, 0) 56%, rgba(255, 255, 255, 0) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+#info #payment
+{
+  width: 600px;
+  margin-left:-10px;
+  transform: rotate(90deg);
+}
+#info #product {
+  width: 700px;
+  margin: 170px 0px 0px -70px;
+}
+
+#info p {
+  width: 100%;
+  text-align: center;
+  line-height: 1.5em;
+}
+#info #hosname{
+  width: 50%;
+  margin: 400px 0px 0px 150px;
+  letter-spacing: 1px;
+}
+#info #hosprice{
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+  color: #000;
+  margin-top: -50px 0px 0px 170px; 
+  padding-top: 10px;
+}
+#info #price {
+  width: 50%;
+  margin: 0 auto;
+  letter-spacing: 1px;
+}
+#info #price h2 {
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+  color: #000;
+  padding-top: 10px;
+}
+
+#payment {
+  width: 40%;
+  /*float: right;*/
+  float: right;
+  padding: 95px 50px 25px 0;
+}
+
+#checkout {
+  width: 100%;
+}
+#checkout input {
+  margin-bottom: 15px;
+}
+#checkout label {
+  float: left;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.6em;
+  padding: 0 0 5px 20px;
+}
+#checkout #cvc-label {
+  margin-left: 50px;
+}
+#checkout #visa{
+  width: 200px;
+  /*margin: 0 10% 25px 10%;*/
+  margin: -50px 0px 0px -400px; 
+  border: none;
+  background: none;
+  height: 200px;
+  cursor: pointer;
+  /* Chrome, Safari, Opera */
+}
+#checkout #mastercard {
+  width: 200px;
+  /*margin: 0 10% 25px 10%;*/
+  margin: -50px 0px 0px 20px; 
+  border: none;
+  background: none;
+  height: 200px;
+  cursor: pointer;
+  /* Chrome, Safari, Opera */
+}
+
+#checkout #metro {
+  width: 200px;
+  /*margin: 0 10% 25px 10%;*/
+  margin-left: 20px;
+  margin-top: -50px;
+  border: none;
+  background: none;
+  height: 200px;
+  cursor: pointer;
+  /* Chrome, Safari, Opera */
+}
+
+
+#checkout .card:focus {
+  -webkit-filter: none;
+  filter: none;
+}
+#checkout #visa {
+  background-image: url('images3/phonepe.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+#checkout #mastercard {
+  background-image: url('images3/tez.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+#checkout #metro {
+  background-image: url('images3/bhimpay.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+
+#checkout #cardnumber, #checkout #cardholder, #checkout #cvc {
+  width: 100%;
+  background: none;
+  border: 1px solid #6C7A89;
+  margin-left:10px; 
+  padding: 8px 19px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  border-radius: 50px;
+  letter-spacing: 1px;
+}
+#checkout ::-webkit-input-placeholder {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  /*color: #BDC3C7;*/
+  color: #585b60;
+  font-size: 15px;
+  /*color: black;*/
+}
+#checkout #cardnumber {
+  letter-spacing: 3px;
+}
+#checkout #cardnumber::-webkit-input-placeholder {
+  font-size: 15px;
+}
+#checkout #left {
+  width: 41%;
+  border: 1px solid #6C7A89;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  border-radius: 50px;
+  overflow: hidden;
+  padding: 3px 5px;
+  float: left;
+}
+#checkout #left #month, #checkout #left #year {
+  background: none;
+  border: none;
+  padding: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  float: left;
+  font-size: 0.8em;
+  letter-spacing: 3px;
+  color: #BDC3C7;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+#checkout #left #month option, #checkout #left #year option {
+  background: #ECECEC;
+}
+#checkout #left p {
+  float: left;
+  padding-top: 2px;
+  font-size: 1.2em;
+  color: #BDC3C7;
+  letter-spacing: 3px;
+}
+#checkout #cvc {
+  width: 48%;
+  float: left;
+  margin-left: 11%;
+}
+#checkout .btn {
+  background: #03C9A9;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+  color: #ECECEC;
+  cursor: pointer;
+}
+#checkout .btn:hover {
+  background: #16A085;
+}

@@ -1,0 +1,569 @@
+ #Register
+   {
+     float: left;
+      width:30%;
+     margin-left:0px;
+     height:50%;
+     transition:2s;
+    background-color:black;
+    border-top-left-radius:15px;
+    border-bottom-left-radius:15px;  
+     opacity:1;
+     overflow:auto;
+
+      
+   }  
+      
+
+/*----register form----> small screens*/
+@media screen and (max-width:450px)
+{
+input[type=text]{
+    width:80%;
+    background-color:rgba(2, 2, 2,0.1);
+    border-bottom:1px solid white;
+    border-top-color:black;
+    border-left-color:black;
+    border-right-color:black;
+    margin-left:10%;
+    padding:0px 0px 0px 20px;
+      caret-color:white;
+      caret-height:22pt;
+      color:white;
+
+}
+input[type=text]:focus{
+    width:80%;
+    background-color:rgba(2, 2, 2,0.1);
+    border-bottom:1px solid white;
+    border-top-color:black;
+    border-left-color:black;
+    border-right-color:black;
+    border-bottom-color:black;
+    margin-left:10%;
+    padding:0px 0px 0px 20px;
+    color:white;
+   
+
+}
+input,input::-webkit-input-placeholder{
+  font-size:100%;
+}
+label{
+       margin-left:5%;
+    font-size:100%;
+       color:white;
+
+     }
+textarea:focus,input:focus{
+  outline: none;
+}
+/* <-- radio button-->*/
+.gender {
+    display: block;
+    position: relative;
+    padding-left:5%;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size:100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-left:15%;
+}
+
+/* Hide the browser's default radio button */
+.gender input {
+    position: absolute;
+    opacity: 0;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top:8%;
+    left: 0;
+    height: 13px;
+    width: 13px;
+    background-color:#ccc;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.gender:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.gender input:checked ~ .checkmark {
+    background-color:rgb(154, 164, 162);
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.gender input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.gender .checkmark:after {
+  top: 3px;
+  left: 3px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background:black;
+}
+.gender{
+color:rgb(135, 164, 157);
+}
+#gender{
+  margin-left:10%;
+  font-size:100%;
+}
+/*<!end radio--->*/
+.nme{
+  font-size:100%;
+  color:white;
+  bottom:0;
+  margin-left:10%;
+  color:rgb(212, 223, 220);
+}
+/*select box*/
+.styled-select {
+   background:;
+   height:25%;
+   overflow: hidden;
+   width: 80%;
+   margin-left:15%;
+}
+
+.styled-select select {
+   background:rgb(76, 86, 83);
+   border: none;
+   border-radius:20px;
+   font-size:100%;
+   height: 15%;
+   padding: 3%; /* If you add too much padding here, the options won't show in IE */
+   width: 80%;
+   color:black;
+}
+
+.styled-select.slate {
+   background:;
+   height: 15%;
+   width: 80%;
+}
+
+.styled-select.slate select {
+   border: 1px solid #ccc;
+   border-radius:20px;
+   font-size: 16px;
+   height: 15%;
+   width: 80%;
+   outline:none;
+}
+#year{
+  width:40%;
+}
+/*select box*/
+/* The Event */
+.event {
+    display: block;
+    position: relative;
+    padding-left:10%;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size:100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-left: 15%;
+
+}
+
+/* Hide the browser's default checkbox */
+.event input {
+
+    position: absolute;
+    opacity: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark1 {
+    position: absolute;
+    top:2%;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    border-radius:50%;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.event:hover input ~ .checkmark1 {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.event input:checked ~ .checkmark1 {
+    background-color:rgb(68, 227, 83);
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark1:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.event input:checked ~ .checkmark1:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.event .checkmark1:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/*event end*/
+@media only screen and (max-width: 320px) {
+
+   
+}
+#eSub{
+  width:30%;
+  background-color:rgb(196, 209, 197);
+  color:black;
+  padding:10px 10px 10px 10px;
+  border-radius:50%;
+  margin-left:65%;
+  cursor:pointer;
+  font-size:100%;
+            font-family:Comic Sans MS;
+            font-weight:bold;
+}
+#eSub:hover{
+  cursor:pointer;
+  width:28%;
+  background-color:rgb(196,209, 197);
+  color:black;
+  padding:10px 10px 10px 10px;
+  border-radius:50%;
+  margin-left:65%;
+  font-size:100%;
+            font-family:Comic Sans MS;
+            font-weight:bold;
+}
+#clImg{
+  margin-top:5%;
+  margin-left:85%;
+}
+#clImg:hover{
+  margin-top:5%;
+  margin-left:85%;
+  cursor:pointer;
+}
+#total{
+  width:100%;
+  margin-left:0%;
+}
+}
+/*  end small screens*/
+input[type=text]{
+    width:80%;
+    background-color:rgba(2, 2, 2,0.1);
+    border-bottom:1px solid white;
+    border-top-color:black;
+    border-left-color:black;
+    border-right-color:black;
+    margin-left:10%;
+    padding:0px 0px 0px 20px;
+      caret-color:white;
+      caret-height:22pt;
+      color:white;
+
+}
+input[type=text]:focus{
+    width:80%;
+    background-color:rgba(2, 2, 2,0.1);
+    border-bottom:1px solid white;
+    border-top-color:black;
+    border-left-color:black;
+    border-right-color:black;
+    border-bottom-color:black;
+    margin-left:10%;
+    padding:0px 0px 0px 20px;
+    color:white;
+   
+
+}
+input,input::-webkit-input-placeholder{
+  font-size:100%;
+}
+label{
+       margin-left:5%;
+    font-size:100%;
+       color:white;
+
+     }
+textarea:focus,input:focus{
+  outline: none;
+}
+/* <-- radio button-->*/
+.gender {
+    display: block;
+    position: relative;
+    padding-left:5%;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size:100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-left:15%;
+}
+
+/* Hide the browser's default radio button */
+.gender input {
+    position: absolute;
+    opacity: 0;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top:8%;
+    left: 0;
+    height: 13px;
+    width: 13px;
+    background-color:#ccc;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.gender:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.gender input:checked ~ .checkmark {
+    background-color:rgb(154, 164, 162);
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.gender input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.gender .checkmark:after {
+  top: 3px;
+  left: 3px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background:black;
+}
+.gender{
+color:rgb(135, 164, 157);
+}
+#gender{
+  margin-left:10%;
+  font-size:100%;
+}
+/*<!end radio--->*/
+.nme{
+  font-size:100%;
+  color:white;
+  bottom:0;
+  margin-left:10%;
+  color:rgb(212, 223, 220);
+}
+/*select box*/
+.styled-select {
+   background:;
+   height:25%;
+   overflow: hidden;
+   width: 80%;
+   margin-left:15%;
+}
+
+.styled-select select {
+   background:rgb(76, 86, 83);
+   border: none;
+   border-radius:20px;
+   font-size:100%;
+   height: 15%;
+   padding: 3%; /* If you add too much padding here, the options won't show in IE */
+   width: 80%;
+   color:black;
+}
+
+.styled-select.slate {
+   background:;
+   height: 15%;
+   width: 80%;
+}
+
+.styled-select.slate select {
+   border: 1px solid #ccc;
+   border-radius:20px;
+   font-size: 16px;
+   height: 15%;
+   width: 80%;
+   outline:none;
+}
+#year{
+  width:40%;
+}
+/*select box*/
+/* The Event */
+.event {
+    display: block;
+    position: relative;
+    padding-left:10%;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size:100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-left: 15%;
+
+}
+
+/* Hide the browser's default checkbox */
+.event input {
+    position: absolute;
+    opacity: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark1 {
+    position: absolute;
+    top:2%;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    border-radius:50%;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.event:hover input ~ .checkmark1 {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.event input:checked ~ .checkmark1 {
+    background-color:rgb(68, 227, 83);
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark1:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.event input:checked ~ .checkmark1:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.event .checkmark1:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/*event end*/
+
+#eSub{
+  width:30%;
+  background-color:rgb(196, 209, 197);
+  color:black;
+  padding:10px 10px 10px 10px;
+  border-radius:50%;
+  margin-left:65%;
+  cursor:pointer;
+  font-size:100%;
+            font-family:Comic Sans MS;
+            font-weight:bold;
+}
+#eSub:hover{
+  cursor:pointer;
+  width:28%;
+  background-color:rgb(196,209, 197);
+  color:black;
+  padding:10px 10px 10px 10px;
+  border-radius:50%;
+  margin-left:65%;
+  font-size:100%;
+            font-family:Comic Sans MS;
+            font-weight:bold;
+}
+#clImg{
+  margin-top:5%;
+  margin-left:85%;
+}
+#clImg:hover{
+  margin-top:5%;
+  margin-left:85%;
+  cursor:pointer;
+}
+#total{
+  width:100%;
+  margin-left:0%;
+}
+/*-----endRegister---->*/
+
+.view
+{  
+    height:5%;
+    width:20%;
+    padding:2px 2px 2px 2px;
+    background-color:orange;
+    border-radius:5px;
+    display:none;
+    margin-left:35%;
+    text-align:center;
+    cursor:pointer;
+}
+a{
+  text-decoration:none;
+}
